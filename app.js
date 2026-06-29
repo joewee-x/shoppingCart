@@ -8,3 +8,13 @@ let product = [
 
 
 ]
+
+const applyDiscount = (product) => {
+  product.forEach(product => {
+    product.discountPrice = product.price * 0.9;
+  });
+};
+
+applyDiscount(product);
+
+console.log(product);
