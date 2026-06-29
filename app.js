@@ -21,6 +21,7 @@ const mostExpProductByCategory = (products, category) => {
     let mostExp = filteredProd.find((product, index, arr) => arr[index])
     return mostExp
 
+    
 }
 
 console.log(mostExpProductByCategory([
