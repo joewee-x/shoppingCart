@@ -9,4 +9,6 @@ let products = [
 ]
 
  
+let productDiscount = products.map((product)=>product.price-product.price*0.10)
 
+console.log(productDiscount)
